@@ -92,6 +92,7 @@ section {
 footer {
     padding-top: 2.5rem;
     background-color: #3a546d;
+    color: var(--color-white);
 }
 
 .wrapper {
