@@ -16,7 +16,7 @@ img {
     --color-light-brown: #ccb2a3;
 }
 
-/* colors  */
+/*background colors  */
 .bg_green {
     background-color: var(--color-green);
 }
@@ -24,6 +24,7 @@ img {
 .bg_pink {
     background-color: var(--color-pink);
 }
+
 
 .bg_light-blue {
     background-color: var(--color-light-blue);
@@ -43,6 +44,21 @@ img {
 
 .bg_light-brown {
     background-color: var(--color-light-brown);
+}
+
+/* colors */
+.color_white {
+    color: var(--color-white);
+}
+
+.color_dark-blue {
+    color: var(--color-dark-blue)
+}
+
+/* border  */
+.bd_white {
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
 }
 
 
