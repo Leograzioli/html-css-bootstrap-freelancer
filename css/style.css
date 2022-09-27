@@ -2,6 +2,11 @@
 
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
 }
 
 :root {
@@ -35,9 +40,18 @@ header ul li {
     margin-left: 10px;
 }
 
+#jumbotron img {
+    max-width: 250px;
+}
+
 /******* MAIN *******/
 section {
     padding: 2.5rem 0 1.5rem;
+}
+
+/* jumbotron section  */
+#jumbotron {
+    color: var(--color-white);
 }
 
 /* portfolio seciton  */
