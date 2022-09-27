@@ -94,6 +94,26 @@ section {
     color: var(--color-white);
 }
 
+#jumbotron .star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: var(--color-white);
+}
+
+#jumbotron .star::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: var(--color-white);
+}
+
 /* portfolio seciton  */
 .my_card {
     width: 100%; 
@@ -104,7 +124,68 @@ section {
     width: 80%;
 }
 
+#portfolio .star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: var(--color-dark-blue);
+}
 
+#portfolio .star::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: var(--color-dark-blue);
+}
+
+
+/* about section  */
+#about .star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: var(--color-white);
+}
+
+#about .star::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: var(--color-white);
+}
+
+/* contact me section  */
+#contact .star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: var(--color-dark-blue);
+}
+
+#contact .star::after {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:15%;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: var(--color-dark-blue);
+}
 
 /******* FOOTER *******/
 footer {
