@@ -71,6 +71,11 @@ header {
     color: var(--color-white); 
 }
 
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
 header ul li {
     margin-left: 10px;
 }
