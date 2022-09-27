@@ -27,6 +27,31 @@ img {
     background-color: var(--color-green);
 }
 
+.bg_pink {
+    background-color: var(--color-pink);
+}
+
+.bg_light-blue {
+    background-color: var(--color-light-blue);
+}
+
+.bg_water-blue {
+    background-color: var(--color-water-blue);
+}
+
+.bg_blue {
+    background-color: var(--color-blue);
+}
+
+.bg_dark-brown {
+    background-color: var(--color-dark-brown);
+}
+
+.bg_light-brown {
+    background-color: var(--color-light-brown);
+}
+
+
 /******* HEADER *******/
 header {
     width: 100%;
@@ -58,7 +83,6 @@ section {
 .my_card {
     width: 100%;
     height: 300px;
-    background-color: var(--color-pink);
     border-radius: 10px;
 }
 
