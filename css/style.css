@@ -6,14 +6,9 @@ img {
 :root {
     --ms_color-dark-blue: #2c3e50;
     --ms_color-light-blue: #1c83c1;
-    --ms_color-water-blue: #1ea4b6;
-    --ms_color-blue: #0e38b5;
     --ms_color-green: #1abc9c;
-    --ms_color-pink: #ba4b63;
     --ms_color-white: #ffffff;
     --ms_color-black: #000000;
-    --ms_color-dark-brown: #140f0f;
-    --ms_color-light-brown: #ccb2a3;
 }
 
 /*background colors  */
@@ -123,11 +118,11 @@ section {
 /* portfolio seciton  */
 .my_card {
     width: 100%; 
-    border-radius: 10px;
 }
 
 #portfolio img {
-    width: 80%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 #portfolio .star::before {
