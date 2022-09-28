@@ -41,12 +41,16 @@ img {
 }
 
 /* colors */
-.color_white {
+.ms_color-white {
     color: var(--ms_color-white);
 }
 
-.color_dark-blue {
+.ms_color-dark-blue {
     color: var(--ms_color-dark-blue)
+}
+
+.ms_color-green {
+    color: var(--ms_color-green);
 }
 
 /* border  */
@@ -152,12 +156,22 @@ section {
 }
 
 /******* FOOTER *******/
+/* footer top  */
 footer {
-    padding-top: 2.5rem;
+    padding-top: 3rem;
     background-color: #3a546d;
     color: var(--ms_color-white);
 }
 
+.ms_icons i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+/* footer bottom  */
 .wrapper {
     background-color: #2c3e50;
     height: 85px;
