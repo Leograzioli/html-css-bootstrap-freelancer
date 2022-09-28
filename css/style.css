@@ -25,7 +25,6 @@ img {
     background-color: var(--ms_color-pink);
 }
 
-
 .bg_light-blue {
     background-color: var(--ms_color-light-blue);
 }
@@ -67,7 +66,6 @@ img {
     margin-top: 6rem;
 }
 
-
 /******* HEADER *******/
 header {
     width: 100%;
@@ -95,12 +93,9 @@ section {
     padding: 2.5rem 0 1.5rem;
 }
 
-/* jumbotron section  */
-#jumbotron {
-    color: var(--ms_color-white);
-}
 
-#jumbotron .star::before {
+/* star  */
+.star::before {
     content: "";
     display: inline-block;
     height: 4px;
@@ -110,7 +105,7 @@ section {
     background-color: var(--ms_color-white);
 }
 
-#jumbotron .star::after {
+.star::after {
     content: "";
     display: inline-block;
     height: 4px;
@@ -118,6 +113,11 @@ section {
     border-radius: 10px;
     margin-left: 10px;
     background-color: var(--ms_color-white);
+}
+
+/* jumbotron section  */
+#jumbotron {
+    color: var(--ms_color-white);
 }
 
 /* portfolio seciton  */
@@ -131,64 +131,28 @@ section {
 }
 
 #portfolio .star::before {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-right: 10px;
     background-color: var(--ms_color-dark-blue);
 }
 
 #portfolio .star::after {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-left: 10px;
     background-color: var(--ms_color-dark-blue);
 }
 
 /* about section  */
 #about .star::before {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-right: 10px;
     background-color: var(--ms_color-white);
 }
 
 #about .star::after {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-left: 10px;
     background-color: var(--ms_color-white);
 }
 
 /* contact me section  */
 #contact .star::before {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-right: 10px;
     background-color: var(--ms_color-dark-blue);
 }
 
 #contact .star::after {
-    content: "";
-    display: inline-block;
-    height: 4px;
-    width:15%;
-    border-radius: 10px;
-    margin-left: 10px;
     background-color: var(--ms_color-dark-blue);
 }
 
