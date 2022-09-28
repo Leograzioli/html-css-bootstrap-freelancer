@@ -4,61 +4,61 @@ img {
 }
 
 :root {
-    --color-dark-blue: #2c3e50;
-    --color-light-blue: #1c83c1;
-    --color-water-blue: #1ea4b6;
-    --color-blue: #0e38b5;
-    --color-green: #1abc9c;
-    --color-pink: #ba4b63;
-    --color-white: #ffffff;
-    --color-black: #000000;
-    --color-dark-brown: #140f0f;
-    --color-light-brown: #ccb2a3;
+    --ms_color-dark-blue: #2c3e50;
+    --ms_color-light-blue: #1c83c1;
+    --ms_color-water-blue: #1ea4b6;
+    --ms_color-blue: #0e38b5;
+    --ms_color-green: #1abc9c;
+    --ms_color-pink: #ba4b63;
+    --ms_color-white: #ffffff;
+    --ms_color-black: #000000;
+    --ms_color-dark-brown: #140f0f;
+    --ms_color-light-brown: #ccb2a3;
 }
 
 /*background colors  */
 .bg_green {
-    background-color: var(--color-green);
+    background-color: var(--ms_color-green);
 }
 
 .bg_pink {
-    background-color: var(--color-pink);
+    background-color: var(--ms_color-pink);
 }
 
 
 .bg_light-blue {
-    background-color: var(--color-light-blue);
+    background-color: var(--ms_color-light-blue);
 }
 
 .bg_water-blue {
-    background-color: var(--color-water-blue);
+    background-color: var(--ms_color-water-blue);
 }
 
 .bg_blue {
-    background-color: var(--color-blue);
+    background-color: var(--ms_color-blue);
 }
 
 .bg_dark-brown {
-    background-color: var(--color-dark-brown);
+    background-color: var(--ms_color-dark-brown);
 }
 
 .bg_light-brown {
-    background-color: var(--color-light-brown);
+    background-color: var(--ms_color-light-brown);
 }
 
 /* colors */
 .color_white {
-    color: var(--color-white);
+    color: var(--ms_color-white);
 }
 
 .color_dark-blue {
-    color: var(--color-dark-blue)
+    color: var(--ms_color-dark-blue)
 }
 
 /* border  */
 .bd_white {
-    border: 1px solid var(--color-white);
-    color: var(--color-white);
+    border: 1px solid var(--ms_color-white);
+    color: var(--ms_color-white);
 }
 
 
@@ -67,8 +67,8 @@ header {
     width: 100%;
     height: 85px;
     line-height: 85px;
-    background-color: var(--color-dark-blue);
-    color: var(--color-white); 
+    background-color: var(--ms_color-dark-blue);
+    color: var(--ms_color-white); 
 }
 
 header a {
@@ -91,7 +91,7 @@ section {
 
 /* jumbotron section  */
 #jumbotron {
-    color: var(--color-white);
+    color: var(--ms_color-white);
 }
 
 #jumbotron .star::before {
@@ -101,7 +101,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: var(--color-white);
+    background-color: var(--ms_color-white);
 }
 
 #jumbotron .star::after {
@@ -111,7 +111,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-left: 10px;
-    background-color: var(--color-white);
+    background-color: var(--ms_color-white);
 }
 
 /* portfolio seciton  */
@@ -131,7 +131,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: var(--color-dark-blue);
+    background-color: var(--ms_color-dark-blue);
 }
 
 #portfolio .star::after {
@@ -141,9 +141,8 @@ section {
     width:15%;
     border-radius: 10px;
     margin-left: 10px;
-    background-color: var(--color-dark-blue);
+    background-color: var(--ms_color-dark-blue);
 }
-
 
 /* about section  */
 #about .star::before {
@@ -153,7 +152,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: var(--color-white);
+    background-color: var(--ms_color-white);
 }
 
 #about .star::after {
@@ -163,7 +162,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-left: 10px;
-    background-color: var(--color-white);
+    background-color: var(--ms_color-white);
 }
 
 /* contact me section  */
@@ -174,7 +173,7 @@ section {
     width:15%;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: var(--color-dark-blue);
+    background-color: var(--ms_color-dark-blue);
 }
 
 #contact .star::after {
@@ -184,14 +183,14 @@ section {
     width:15%;
     border-radius: 10px;
     margin-left: 10px;
-    background-color: var(--color-dark-blue);
+    background-color: var(--ms_color-dark-blue);
 }
 
 /******* FOOTER *******/
 footer {
     padding-top: 2.5rem;
     background-color: #3a546d;
-    color: var(--color-white);
+    color: var(--ms_color-white);
 }
 
 .wrapper {
