@@ -16,29 +16,10 @@ img {
     background-color: var(--ms_color-green);
 }
 
-.bg_pink {
-    background-color: var(--ms_color-pink);
-}
-
 .bg_light-blue {
     background-color: var(--ms_color-light-blue);
 }
 
-.bg_water-blue {
-    background-color: var(--ms_color-water-blue);
-}
-
-.bg_blue {
-    background-color: var(--ms_color-blue);
-}
-
-.bg_dark-brown {
-    background-color: var(--ms_color-dark-brown);
-}
-
-.bg_light-brown {
-    background-color: var(--ms_color-light-brown);
-}
 
 /* colors */
 .ms_color-white {
@@ -155,6 +136,16 @@ section {
     background-color: var(--ms_color-dark-blue);
 }
 
+#contact .form-control:focus {
+    box-shadow: none;
+}
+
+#contact .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
 /******* FOOTER *******/
 /* footer top  */
 footer {
