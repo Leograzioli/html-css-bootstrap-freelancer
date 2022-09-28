@@ -35,12 +35,6 @@ img {
     color: var(--ms_color-white);
 }
 
-/* margin  */
-
-.ms_margin-t {
-    margin-top: 6rem;
-}
-
 /******* HEADER *******/
 header {
     width: 100%;
