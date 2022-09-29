@@ -53,15 +53,10 @@ header ul li {
     margin-left: 10px;
 }
 
-#jumbotron img {
-    max-width: 250px;
-}
-
 /******* MAIN *******/
 .ms_section {
     padding: 2.5rem 0 1.5rem;
 }
-
 
 /* star  */
 .ms_star::before {
@@ -85,6 +80,11 @@ header ul li {
 }
 
 /* jumbotron section  */
+
+#jumbotron img {
+    max-width: 250px;
+}
+
 #jumbotron {
     color: var(--ms_color-white);
 }
