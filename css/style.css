@@ -62,6 +62,7 @@ header ul li {
 .ms_star::before {
     content: "";
     display: inline-block;
+    vertical-align: middle;
     height: 4px;
     width:15%;
     border-radius: 10px;
@@ -72,6 +73,7 @@ header ul li {
 .ms_star::after {
     content: "";
     display: inline-block;
+    vertical-align: middle;
     height: 4px;
     width:15%;
     border-radius: 10px;
