@@ -64,7 +64,7 @@ header ul li {
 
 
 /* star  */
-.star::before {
+.ms_star::before {
     content: "";
     display: inline-block;
     height: 4px;
@@ -74,7 +74,7 @@ header ul li {
     background-color: var(--ms_color-white);
 }
 
-.star::after {
+.ms_star::after {
     content: "";
     display: inline-block;
     height: 4px;
@@ -99,29 +99,29 @@ header ul li {
     border-radius: 10px;
 }
 
-#portfolio .star::before {
+#portfolio .ms_star::before {
     background-color: var(--ms_color-dark-blue);
 }
 
-#portfolio .star::after {
+#portfolio .ms_star::after {
     background-color: var(--ms_color-dark-blue);
 }
 
 /* about section  */
-#about .star::before {
+#about .ms_star::before {
     background-color: var(--ms_color-white);
 }
 
-#about .star::after {
+#about .ms_star::after {
     background-color: var(--ms_color-white);
 }
 
 /* contact me section  */
-#contact .star::before {
+#contact .ms_star::before {
     background-color: var(--ms_color-dark-blue);
 }
 
-#contact .star::after {
+#contact .ms_star::after {
     background-color: var(--ms_color-dark-blue);
 }
 
